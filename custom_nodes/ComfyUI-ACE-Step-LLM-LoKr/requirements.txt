@@ -1,0 +1,3 @@
+# Requirements for ComfyUI ACE-Step LLM LoKr Node
+# These are typically already installed by ACE-Step-1.5
+loguru>=0.7.0
