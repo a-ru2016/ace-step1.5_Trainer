@@ -37,11 +37,20 @@ torchao
 toml
 modelscope
 
+
 # Training dependencies (required for LoRA/LoKr training)
 peft>=0.18.0
 lycoris-lora
 lightning>=2.0.0
 tensorboard>=2.0.0
+prodigy
+safetensors
+packaging
+transformers
+lycoris-lora
+PEFT
+Lightning
+bitsandbytes
 
 # MLX dependencies (Apple Silicon native acceleration - macOS only)
 # Provides significant speedup for LLM inference on Apple Silicon GPUs
